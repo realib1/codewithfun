@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #0a0909;
+    color: #f1f1f1;
+}
+
+main {
+    max-width: 65rem;
+    margin: auto;
+}
+
+h1 {
+    background: #044c88;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+}
+
+
+.header {
+    background: #0899ac;
+}
+
+.header p {
+    padding: .5rem;
+}
+
+.header-2 {
+    background: #01857e;
+}
+
+.header-2 h2 {
+    background: #02ad44;
+    padding: .5rem 1rem;
+}
+
+
+.header-2 li {
+    padding: .2rem 1rem;
+}
+
+.header-3 {
+    background: #1c0e6d;
+}
+
+.header-3 h3 {
+    background: #5f025f;
+    padding: .5rem 1rem;
+}
+
+
+.header-3 li {
+    padding: .2rem;
+}
+
+.header-4 {
+    background: #800202;
+}
+
+.header-4 h4 {
+    padding: .5rem 1rem;
+    background: #fa3232;
+}
+
+.header-4 li {
+    padding: .2rem;
+}
+
+.header-5 {
+    background: #2603be;
+    margin: auto;
+}
+
+.header-5 h5 {
+    background: #0e58e2;
+    padding: .5rem 1rem;
+}
+
+.header-5 img {
+    width: 100%;
+    max-width: 50rem;
+    padding: 1rem;
+}
+
+.table {
+    margin-top: 2rem;
+    background: #018888;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+}
+caption {
+    width: 100%;
+    padding: .5rem 1rem;
+    background: #01554a;
+    font-weight: 700;
+}
+
+th, td {
+    border: 2px solid;
+    padding: .2rem;
+}
+
+.header-6 {
+    background: #5c016e;
+}
+
+.header-6 h6 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+form {
+    background: #05a367;
+    padding: .5rem 1rem;
+}
+
+input {
+    padding: .5rem;
+    width: 100%;
+}
+
+button {
+    background: #02237e;
+    color: #f1f1f1;
+    width: 100%;
+    padding: .5rem 1rem;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #021a5f;
+}
+
+footer{
+    background: #272727;
+    width: 100%;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: .9rem;
+}
+
+@media (min-width: 780px) {
+
+    main {
+        max-width: 65rem;
+        margin: auto;
+    }
+
+    table{
+
+        width: 50%;
+    }
+    .header-6 {
+        padding:0rem 2rem 2rem;
+    }
+    form {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    img {
+        max-width: 30rem;
+    }
+}
